@@ -1,0 +1,610 @@
+/****** MEDIA QUERIES ***/
+
+@media (max-width: 400px) {
+  .flex-container {
+    display: block;
+  }
+  .flex {
+    display: block;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+  .main-inner-container {
+    width: 85%;
+  }
+  .main-text {
+    margin: 200px 0 90px 0;
+  }
+  #main {
+    min-height: 500px;
+  }
+  .main-heading,
+  .main-span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .spans {
+  height: 22px;
+}
+  .main-paragraph {
+    font-size: 13px;
+    line-height: 1.4em;
+  }
+  .get-started {
+    margin: 25px 0 0 4px;
+    box-shadow: -3px 3px 1px #fff;
+  }
+  .get-started > a {
+    font-size: 13px;
+    padding: 10px 50px 10px 12px;
+  }
+  #pointer-click {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    opacity: 0.6;
+  }
+
+  /**** BACK TO TOP BTN **/
+  .btn-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100000;
+    display: inline-block;
+  }
+  #back-to-top {
+    width: 35px;
+    height: auto;
+  }
+
+  /*** SERVICES SECTION **/
+
+  #services-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #services-heading {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 70px;
+  }
+  .service-item {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin: 20px 0 20px;
+  }
+
+  /** WHY CHOOSE US SECTION **/
+
+  #why-choose-us-section {
+    margin: 100px 0 100px;
+  }
+  .choose-us-heading {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 50px;
+  }
+  .choose-us-reasons {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  /** HOW IT WORKS SECTION **/
+
+  .how-it-works {
+    margin: 0 0 100px 0;
+  }
+  .works-heading {
+    font-size: 30px;
+  }
+  .works-content {
+    text-align: left;
+    width: 90%;
+    height: auto;
+    margin: 15px 0;
+  }
+  .center {
+    text-align: center;
+  }
+  .get-started2 > a {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    padding: 10px 33px 10px 10px;
+    display: block;
+    transition: ease 0.3s;
+  }
+  #pointer-click2 {
+    width: 13px;
+    height: auto;
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    opacity: 0.6;
+  }
+
+  /*** CLIENT REVIEW SECTION **/
+
+  .clients-review {
+    min-height: 500px;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  #video {
+    display: none;
+  }
+  .reviews-heading {
+    font-size: 30px;
+    word-spacing: 2px;
+  }
+  .clients {
+    width: 90%;
+    margin: 20px 0;
+    padding: 15px;
+  }
+  .clients-paragraph {
+    text-align: justify;
+    line-height: 1.2em;
+    letter-spacing: 0.5px;
+  }
+
+  /** FAQS **/
+
+  #faqs-section {
+    width: 99%;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+  .faqs-heading {
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 0.2em;
+    padding: 20px 0 30px;
+  }
+  #first-faq {
+    padding: 10px;
+    width: 95%;
+  }
+  .faqs-wrapper {
+    width: 100%;
+  }
+  .faq {
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    padding-left: 27px;
+    width: 80%;
+  }
+  .faq-para {
+    padding: 20px 10px 15px 10px;
+  }
+  .special {
+    text-align: center;
+  }
+
+  /** ABOUT US / CONTACT SECTION **/
+
+  .about-contact-layout {
+    display: block;
+  }
+  .aboutus-contact {
+    margin: 70px 0 0;
+    padding: 20px 0 100px;
+  }
+  #contact-us {
+    width: 100%;
+    margin: 0;
+  }
+  .input-field,
+  #textarea {
+    width: 90%;
+  }
+  #submit-btn {
+    width: 120px;
+    margin: 10px;
+  }
+
+  /*  ABOUT US *** */
+
+  .about-us {
+    width: 100%;
+    margin: auto;
+  }
+  .about-us-heading {
+    margin: 20px 0 0 0;
+  }
+  .about-para {
+    text-align: justify;
+  }
+}
+@media (max-width: 600px) {
+  .flex-container {
+    display: block;
+  }
+  .flex {
+    display: block;
+  }
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  /** END OF GLOBAL ****/
+
+  #main {
+    min-height: 600px;
+  }
+  .main-inner-container {
+    width: 80%;
+  }
+  .main-text {
+    margin: 210px 0 90px 0;
+  }
+  .main-heading {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .main-span {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  .spans {
+  height: 27px;
+  }
+  .main-paragraph {
+    font-size: 13px;
+    line-height: 1.4em;
+  }
+
+  /* BACK TO TOP BTN **/
+  .btn-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 100000;
+    display: inline-block;
+  }
+
+  /*** SERVICES SECTION **/
+
+  #services-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #services-heading {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 70px;
+  }
+  .service-item {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin: 20px 0 20px;
+  }
+  /* WHY CHOOSE US SECTION */
+
+  #why-choose-us-section {
+    margin: 100px 0 40px;
+  }
+  .choose-us-heading {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 50px;
+  }
+  .choose-us-reasons {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+
+  /** HOW IT WORKS SECTION **/
+
+  .how-it-works {
+    margin: 0 0 100px 0;
+  }
+  .works-heading {
+    font-size: 50px;
+  }
+  .works-content {
+    text-align: left;
+    width: 90%;
+    height: auto;
+    padding: 40px 0 40px 20px;
+    margin: 20px auto;
+  }
+  .center {
+    text-align: center;
+  }
+  .works-end {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.3em;
+    color: #727272;
+    padding: 15px 0;
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  /*** CLIENT REVIEW SECTION **/
+
+  .clients-review {
+    min-height: 600px;
+    overflow: hidden;
+    padding-bottom: 50px;
+  }
+  .clients {
+    width: 90%;
+    margin: 20px 0;
+    padding: 15px;
+  }
+  .clients-paragraph {
+    text-align: justify;
+    line-height: 1.2em;
+    letter-spacing: 0.5px;
+  }
+  #video {
+    display: none;
+  }
+  .reviews-heading {
+    font-size: 40px;
+    word-spacing: 4px;
+  }
+
+  /** FAQS **/
+
+  #faqs-section {
+    width: 99%;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+  .faqs-heading {
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 0.2em;
+    padding: 20px 0 30px;
+  }
+
+  /** ABOUT US / CONTACT SECTION **/
+
+  .about-contact-layout {
+    display: block;
+  }
+  .aboutus-contact {
+    margin: 90px 0 0;
+    padding: 20px 0 100px;
+  }
+  #contact-us {
+    width: 100%;
+    margin: 0;
+  }
+  .input-field,
+  #textarea {
+    width: 90%;
+  }
+  #submit-btn {
+    width: 150px;
+    margin: 10px;
+  }
+
+  /*  ABOUT US *** */
+
+  .about-us {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    display: block;
+  }
+  .flex {
+    display: block;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+  /** Main **/
+
+  #main {
+    min-height: 600px;
+  }
+  .main-inner-container {
+    width: 80%;
+  }
+  .main-text {
+    margin: 220px 0 90px 0;
+  }
+  .main-heading {
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .main-span {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  .spans {
+  height: 32px;
+}
+  .main-paragraph {
+    font-size: 14.5px;
+    line-height: 1.4em;
+  }
+  .get-started {
+    margin: 40px 0 0 4px;
+  }
+  /* BACK TO TOP BTN **/
+  .btn-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 100000;
+    display: inline-block;
+  }
+  /*** SERVICES SECTION **/
+
+  #services-section {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  #services-heading {
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 70px;
+  }
+  .service-item {
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin: 20px 0 20px;
+  }
+  /* WHY CHOOSE US SECTION */
+
+  #why-choose-us-section {
+    margin: 100px 0 40px;
+  }
+  .choose-us-heading {
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 50px;
+  }
+  .choose-us-reasons {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .works-heading {
+    font-size: 50px;
+  }
+  .works-content {
+    text-align: left;
+    width: 90%;
+    height: auto;
+    padding: 50px 0 40px 20px;
+    margin: 20px auto;
+  }
+  .center {
+    text-align: center;
+  }
+  .works-end {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.3em;
+    color: #727272;
+    padding: 15px 0;
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+  }
+  /*** CLIENT REVIEW SECTION **/
+
+  .clients-review {
+    min-height: 600px;
+    overflow: hidden;
+    padding-bottom: 50px;
+  }
+  .clients {
+    width: 90%;
+    margin: 20px 0;
+    padding: 15px;
+  }
+  .clients-paragraph {
+    text-align: justify;
+    line-height: 1.2em;
+    letter-spacing: 0.5px;
+  }
+  #video {
+    display: none;
+  }
+  /** FAQS **/
+  .faqs-heading {
+    font-size: 35px;
+  }
+  /** ABOUT US / CONTACT SECTION **/
+
+  .about-contact-layout {
+    display: block;
+  }
+  #contact-us {
+    width: 100%;
+    margin: 0;
+  }
+  .input-field,
+  #textarea {
+    width: 90%;
+  }
+  #submit-btn {
+    width: 150px;
+    margin: 10px;
+  }
+  .about-us {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flex-container {
+    display: block;
+  }
+  .main-heading {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  /*** SERVICES SECTION **/
+  #services-section {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  .service-item {
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin: 20px 0 20px;
+  }
+  .service-paragraph {
+    font-size: 13.5px;
+    font-weight: 500;
+    padding: 10px 0;
+    line-height: 1.8em;
+    color: #818181;
+  }
+  .choose-us-heading {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 50px;
+  }
+  .choose-us-reasons {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .clients-review {
+    min-height: 600px;
+    overflow: hidden;
+  }
+}
